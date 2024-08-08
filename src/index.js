@@ -1,8 +1,9 @@
 const express = require("express");
 const path = require("path");
+const { env } = require("process");
 
 const app = express();
-const PORT = evm.PORT || 3000;
+const PORT = env.PORT || 3000;
 
 // Serve the PDF file
 app.get("/ResumeAfwan", (req, res) => {
