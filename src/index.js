@@ -7,7 +7,7 @@ const PORT = env.PORT || 3000;
 
 // Serve the PDF file
 app.get("/ResumeAfwan", (req, res) => {
-  const filePath = path.join(__dirname, "../ResumeAfwan.pdf"); // Replace with your PDF file name
+  const filePath = path.join(__dirname, "../Afwan_Shaikh_-_Resume.pdf"); // Replace with your PDF file name
   res.sendFile(filePath);
 });
 
